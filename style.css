@@ -1,0 +1,413 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+}
+
+.top {
+    height: 64px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.freebtn {
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    border: 0;
+    height: 64px;
+    width: 200px;
+    font-weight: 700;
+}
+
+#description {
+    color: gray;
+    text-align: center;
+}
+
+#container {
+    width: 90%;
+}
+
+#graphic {
+    background-color: rgba(117, 92, 222, 1);
+    background-image: url(./assets/pattern-graphic-design.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%;
+    height: 360px;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#graphicp {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 20px;
+    text-align: start;
+}
+
+#uiandapp {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#ui {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(./assets/pattern-ui-ux.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%;
+    border-radius: 15px;
+    background-color: rgba(246, 165, 96, 1);
+    color: white;
+    width: 47%;
+}
+
+
+#uip {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 25px;
+    text-align: start;
+
+}
+
+#app {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(./assets/pattern-apps.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%;
+    background-color: rgba(243, 158, 158, 1);
+    border-radius: 15px;
+    color: white;
+    width: 47%;
+}
+
+#appp {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 25px;
+    text-align: start;
+}
+
+#illustration {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(./assets/pattern-illustrations.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%;
+    background-color: rgba(235, 117, 101, 1);
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+#photography {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(./assets/pattern-photography.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%;
+    background-color: rgba(97, 196, 183, 1);
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+#motion {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(./assets/pattern-motion-graphics.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%;
+    background-color: rgba(85, 32, 73, 1);
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.img {
+    margin-left: 60%;
+    margin-top: 30px;
+}
+
+.p {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 20px;
+    text-align: start;
+    margin-top: 40px;
+}
+
+#amydiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#amy {
+    height: 50%;
+    width: 50%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#pamy {
+    color: gray;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.freebtnorange {
+    background-color: rgba(235, 117, 101, 1);
+    color: white;
+    margin-bottom: 50px;
+    border-radius: 35px;
+    border: 0;
+    height: 64px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#carousel {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#slide {
+    height: 80%;
+    width: 70%;
+    border-radius: 15px;
+
+}
+
+#arrowdiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.arrow {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+#bookdiv {
+    background-color: black;
+    border-radius: 15px;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#book {
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#bookp {
+    color: white;
+}
+
+/* partie tablet  */
+@media screen and (min-width : 500px) {
+    body {
+        padding: 20px;
+    }
+
+    #container {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        gap: 15px;
+        margin-bottom: 50px;
+    }
+
+    #graphic {
+        height: 100%;
+        grid-area: 1/1/3/2;
+    }
+
+    #uiandapp {
+        margin: 0;
+        grid-area: 1/2/2/3;
+    }
+
+    #ui {
+        width: 47.5%;
+    }
+
+    #app {
+        width: 47.5%;
+    }
+
+    #illustration {
+        margin: 0;
+    }
+
+    #photography {
+        margin: 0;
+    }
+
+    #motion {
+        margin: 0;
+    }
+
+    #amydiv {
+        display: grid;
+    }
+
+    #amy {
+        grid-area: 2/1/3/2;
+        height: 90%;
+        width: 140%;
+        margin: 0;
+        margin-left: -50%;
+    }
+
+    #pamy {
+        grid-area: 2/2/2/2;
+        text-align: start;
+    }
+
+    h2 {
+        grid-area: 2/2/2/2;
+        margin-bottom: 50%;
+    }
+
+    .freebtnorange {
+        grid-area: 2/2/2/2;
+        margin-top: 65%;
+    }
+
+    h3 {
+        margin-top: 40px;
+    }
+
+    #secondbtn {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width : 900px) {
+    body {
+        background-color: rgb(220, 215, 230);
+        padding: 30px 8%;
+    }
+
+    #description {
+        width: 550px;
+    }
+
+    #graphic {
+        grid-area: 1/1/3/2;
+    }
+
+    #uiandapp {
+        grid-area: 1/2/2/2;
+    }
+
+    #photography {
+        grid-area: 1/3/2/3;
+    }
+
+    #amydiv {
+        width: 90%;
+    }
+
+    #amy {
+        margin: 0;
+        height: 80%;
+        width: 110%;
+    }
+
+    h2 {
+        width: 70%;
+        justify-content: center;
+        margin-left: 50px;
+        margin-top: 65px;
+    }
+
+    #pamy {
+        width: 70%;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+
+    .freebtnorange {
+        margin-left: 80px;
+        grid-area: 1/2/3/3;
+        margin-top: 50%;
+        margin-bottom: 5%;
+    }
+
+    #bookdiv {
+        width: 73%;
+        height: 240px;
+        padding-left: 45px;
+        margin-top: 50px;
+        display: grid;
+    }
+
+    #book {
+        justify-content: flex-start;
+        text-align: start;
+        margin: 0;
+        margin-top: 10%;
+    }
+
+    #bookp {
+        grid-area: 2/1/2;
+        text-align: start;
+        width: 350px;
+        margin-top: 0;
+    }
+
+    #secondbtn {
+        margin: 0;
+        margin-top: -30%;
+        grid-area: 2/2/2/3;
+    }
+}
